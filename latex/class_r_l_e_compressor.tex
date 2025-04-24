@@ -1,0 +1,67 @@
+\doxysection{RLECompressor Class Reference}
+\hypertarget{class_r_l_e_compressor}{}\label{class_r_l_e_compressor}\index{RLECompressor@{RLECompressor}}
+Inheritance diagram for RLECompressor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_r_l_e_compressor}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ uint8\+\_\+t $>$ \mbox{\hyperlink{class_r_l_e_compressor_a26a598fbaeef5cddee971436c90194ba}{compress}} (const std\+::vector$<$ uint8\+\_\+t $>$ \&data) override
+\begin{DoxyCompactList}\small\item\em Сжатие данных (абстрактный метод) \end{DoxyCompactList}\item 
+std\+::vector$<$ uint8\+\_\+t $>$ \mbox{\hyperlink{class_r_l_e_compressor_aa87035d8cd4cf6185f9c45d772226220}{decompress}} (const std\+::vector$<$ uint8\+\_\+t $>$ \&compressed\+Data) override
+\begin{DoxyCompactList}\small\item\em Распаковка данных (абстрактный метод) \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_r_l_e_compressor_a596b69800c6ccd6df0030387844df1f7}{get\+Compression\+Ratio}} () const override
+\begin{DoxyCompactList}\small\item\em Получение коэффициента сжатия \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_r_l_e_compressor_a26a598fbaeef5cddee971436c90194ba}\index{RLECompressor@{RLECompressor}!compress@{compress}}
+\index{compress@{compress}!RLECompressor@{RLECompressor}}
+\doxysubsubsection{\texorpdfstring{compress()}{compress()}}
+{\footnotesize\ttfamily \label{class_r_l_e_compressor_a26a598fbaeef5cddee971436c90194ba} 
+std\+::vector$<$ uint8\+\_\+t $>$ RLECompressor\+::compress (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ uint8\+\_\+t $>$ \&}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Сжатие данных (абстрактный метод) 
+
+
+
+Implements \mbox{\hyperlink{class_compressor_a85cdbb0a95f600959f4b46b562aadaed}{Compressor}}.
+
+\Hypertarget{class_r_l_e_compressor_aa87035d8cd4cf6185f9c45d772226220}\index{RLECompressor@{RLECompressor}!decompress@{decompress}}
+\index{decompress@{decompress}!RLECompressor@{RLECompressor}}
+\doxysubsubsection{\texorpdfstring{decompress()}{decompress()}}
+{\footnotesize\ttfamily \label{class_r_l_e_compressor_aa87035d8cd4cf6185f9c45d772226220} 
+std\+::vector$<$ uint8\+\_\+t $>$ RLECompressor\+::decompress (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ uint8\+\_\+t $>$ \&}]{compressed\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Распаковка данных (абстрактный метод) 
+
+
+
+Implements \mbox{\hyperlink{class_compressor_a647bd8a5e4c0f01a1decb06970ff5e69}{Compressor}}.
+
+\Hypertarget{class_r_l_e_compressor_a596b69800c6ccd6df0030387844df1f7}\index{RLECompressor@{RLECompressor}!getCompressionRatio@{getCompressionRatio}}
+\index{getCompressionRatio@{getCompressionRatio}!RLECompressor@{RLECompressor}}
+\doxysubsubsection{\texorpdfstring{getCompressionRatio()}{getCompressionRatio()}}
+{\footnotesize\ttfamily \label{class_r_l_e_compressor_a596b69800c6ccd6df0030387844df1f7} 
+float RLECompressor\+::get\+Compression\+Ratio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Получение коэффициента сжатия 
+
+
+
+Implements \mbox{\hyperlink{class_compressor_a505ecd83ba89c36867d4ee14a931eeb8}{Compressor}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Console\+Application2.\+cpp\end{DoxyCompactItemize}

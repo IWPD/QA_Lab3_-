@@ -1,0 +1,34 @@
+\doxysection{Archiver Class Reference}
+\hypertarget{class_archiver}{}\label{class_archiver}\index{Archiver@{Archiver}}
+Inheritance diagram for Archiver\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_archiver}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_archiver_aa404ea6a39b3d37d6aa8103b9b8f75e7}\label{class_archiver_aa404ea6a39b3d37d6aa8103b9b8f75e7} 
+{\bfseries Archiver} (int type)
+\begin{DoxyCompactList}\small\item\em Конструктор с выбором алгоритма сжатия \end{DoxyCompactList}\item 
+\Hypertarget{class_archiver_aa87a33e2798da618b9997a1f1cb807a5}\label{class_archiver_aa87a33e2798da618b9997a1f1cb807a5} 
+bool {\bfseries create\+Archive} (const std\+::string \&output\+Path, const std\+::vector$<$ std\+::string $>$ \&input\+Files)
+\begin{DoxyCompactList}\small\item\em Создание архива \end{DoxyCompactList}\item 
+\Hypertarget{class_archiver_a6897d1963583cd1ee333c59150f49bdb}\label{class_archiver_a6897d1963583cd1ee333c59150f49bdb} 
+bool {\bfseries extract\+Archive} (const std\+::string \&input\+Path, const std\+::string \&output\+Dir)
+\begin{DoxyCompactList}\small\item\em Извлечение архива \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_file_manager}{File\+Manager}}}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries file\+Exists} (const std\+::string \&path) const
+\begin{DoxyCompactList}\small\item\em Проверка существования файла \end{DoxyCompactList}\item 
+virtual std\+::vector$<$ uint8\+\_\+t $>$ {\bfseries read\+File} (const std\+::string \&path) const
+\begin{DoxyCompactList}\small\item\em Чтение файла в бинарном режиме \end{DoxyCompactList}\item 
+virtual void {\bfseries write\+File} (const std\+::string \&path, const std\+::vector$<$ uint8\+\_\+t $>$ \&data) const
+\begin{DoxyCompactList}\small\item\em Запись файла в бинарном режиме \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Console\+Application2.\+cpp\end{DoxyCompactItemize}
